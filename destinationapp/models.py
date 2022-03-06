@@ -3,7 +3,7 @@ from django.db import models
 
 # Create your models here.
 
-class places(models.Model):
+class place(models.Model):
     place_name = models.CharField(max_length=100)
     image = models.ImageField(upload_to='photos')
     desc = models.TextField()
